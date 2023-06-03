@@ -1,1 +1,21 @@
+html {
+  height: 100%;
+  width: 100%;
+}
 
+.my-btn {
+  background-color: deeppink;
+  color: white;
+  border-width: 5px;
+  border-color: hotpink;
+  border-radius: 2px;
+  box-shadow: 3px 3px white
+}
+
+.my-btn:hover {
+  background-color: hotpink;
+  transition: .2s;
+
+  .my-btn:active {
+    background-color: white;
+  }
